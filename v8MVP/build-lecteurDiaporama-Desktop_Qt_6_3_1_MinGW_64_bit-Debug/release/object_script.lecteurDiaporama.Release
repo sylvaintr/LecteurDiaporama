@@ -1,0 +1,13 @@
+release/aproposde.o
+release/changerdiaporama.o
+release/database.o
+release/diaporama.o
+release/imageDansDiaporama.o
+release/lecteur.o
+release/lecteurpresentation.o
+release/lecteurvue.o
+release/main.o
+release/qrc_image.o
+release/moc_aproposde.o
+release/moc_changerdiaporama.o
+release/moc_lecteurvue.o
