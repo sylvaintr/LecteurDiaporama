@@ -15,6 +15,7 @@ LecteurVue::LecteurVue(QWidget *parent) :
     QObject::connect(ui->automatique, SIGNAL(clicked()), this, SLOT(demanderAutomatique()));
     QObject::connect(ui->accelerer, SIGNAL(clicked()), this, SLOT(demanderAccelerer()));
     QObject::connect(ui->ralentir, SIGNAL(clicked()), this, SLOT(demanderRalentir()));
+    setWindowTitle("Lecteur de diaporama");
 }
 
 LecteurVue::~LecteurVue()
@@ -51,7 +52,7 @@ void LecteurVue::afficherfenetreapropode()
     aprop->show();
 }
 
-void LecteurVue::demanderquiter()
+void LecteurVue::demanderquitter()
 {
     getPresantation()->demanderQuitter();
 }
@@ -78,7 +79,7 @@ void LecteurVue::demanderAccelerer()
 
 void LecteurVue::demanderRalentir()
 {
-getPresantation()->demanderRalentir();
+    getPresantation()->demanderRalentir();
 }
 
 QTimer *LecteurVue::getTimer() const

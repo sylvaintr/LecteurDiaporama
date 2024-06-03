@@ -32,7 +32,7 @@ public:
 
 public slots:
     void afficherfenetreapropode();
-    void demanderquiter();
+    void demanderquitter();
     void demanderAvancer();
     void demanderReculer();
     void demanderAutomatique();

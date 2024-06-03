@@ -74,14 +74,14 @@ void LecteurPresentation::demanderAccelerer()
 {
     getModele()->getDiaporama()->setVitesseDefilement(getModele()->getDiaporama()->getVitesseDefilement()*0.5);
     getVue()->getTimer()->setInterval(getModele()->getDiaporama()->getVitesseDefilement());
-    qDebug() << "Accelerer - Disponible en v4_MVP !";
+    //qDebug() << "Accelerer - Disponible en v4_MVP !";
 }
 
 void LecteurPresentation::demanderRalentir()
 {
     getModele()->getDiaporama()->setVitesseDefilement(getModele()->getDiaporama()->getVitesseDefilement()*2);
     getVue()->getTimer()->setInterval(getModele()->getDiaporama()->getVitesseDefilement());
-    qDebug() << "Ralentir - Disponible en v4_MVP !";
+    //qDebug() << "Ralentir - Disponible en v4_MVP !";
 }
 
 void LecteurPresentation::demanderVider()
