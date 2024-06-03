@@ -342,7 +342,7 @@ release/moc_aproposde.cpp: ../lecteurDiaporama/aproposde.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
 		release/moc_predefs.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/cour/butinfo20232024/SAE/2.01/git/LecteurDiaporama/v6MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/cour/butinfo20232024/SAE/2.01/git/LecteurDiaporama/v6MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\aproposde.h -o release\moc_aproposde.cpp
+	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\aproposde.h -o release\moc_aproposde.cpp
 
 release/moc_changerdiaporama.cpp: ../lecteurDiaporama/changerdiaporama.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -484,11 +484,9 @@ release/moc_changerdiaporama.cpp: ../lecteurDiaporama/changerdiaporama.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
-		../lecteurDiaporama/database.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		release/moc_predefs.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/cour/butinfo20232024/SAE/2.01/git/LecteurDiaporama/v6MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/cour/butinfo20232024/SAE/2.01/git/LecteurDiaporama/v6MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\changerdiaporama.h -o release\moc_changerdiaporama.cpp
+	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\changerdiaporama.h -o release\moc_changerdiaporama.cpp
 
 release/moc_lecteurvue.cpp: ../lecteurDiaporama/lecteurvue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QObject \
@@ -638,14 +636,12 @@ release/moc_lecteurvue.cpp: ../lecteurDiaporama/lecteurvue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
-		../lecteurDiaporama/database.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		../lecteurDiaporama/aproposde.h \
 		../lecteurDiaporama/imageDansDiaporama.h \
 		../lecteurDiaporama/diaporama.h \
 		release/moc_predefs.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/cour/butinfo20232024/SAE/2.01/git/LecteurDiaporama/v6MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/cour/butinfo20232024/SAE/2.01/git/LecteurDiaporama/v6MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\lecteurvue.h -o release\moc_lecteurvue.cpp
+	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\lecteurvue.h -o release\moc_lecteurvue.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -997,8 +993,6 @@ release/changerdiaporama.o: ../lecteurDiaporama/changerdiaporama.cpp ../lecteurD
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
-		../lecteurDiaporama/database.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		ui_changerdiaporama.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QAbstractButton \
@@ -1055,6 +1049,9 @@ release/changerdiaporama.o: ../lecteurDiaporama/changerdiaporama.cpp ../lecteurD
 		../lecteurDiaporama/lecteur.h \
 		../lecteurDiaporama/imageDansDiaporama.h \
 		../lecteurDiaporama/diaporama.h \
+		../lecteurDiaporama/database.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QStringList \
 		../lecteurDiaporama/lecteurvue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmainwindow.h \
@@ -1111,7 +1108,47 @@ release/database.o: ../lecteurDiaporama/database.cpp ../lecteurDiaporama/databas
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qanystringview.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qutf8stringview.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringtokenizer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringbuilder.h
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringbuilder.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qlist.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qhashfunctions.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qiterator.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qbytearraylist.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringlist.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qalgorithms.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringmatcher.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmetatype.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcompare.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qvarlengtharray.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qscopeguard.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdatastream.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qscopedpointer.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qiodevicebase.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qiterable.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmetacontainer.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcontainerinfo.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qtaggedpointer.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmath.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qobjectdefs.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmap.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qshareddata.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qshareddata_impl.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qhash.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qobject.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcoreevent.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qobject_impl.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qbindingstorage.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdebug.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qtextstream.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringconverter.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qset.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcontiguouscache.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QStringList
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\database.o ..\lecteurDiaporama\database.cpp
 
 release/diaporama.o: ../lecteurDiaporama/diaporama.cpp ../lecteurDiaporama/diaporama.h \
@@ -1200,7 +1237,10 @@ release/diaporama.o: ../lecteurDiaporama/diaporama.cpp ../lecteurDiaporama/diapo
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qset.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		../lecteurDiaporama/database.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QStringList
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\diaporama.o ..\lecteurDiaporama\diaporama.cpp
 
 release/imageDansDiaporama.o: ../lecteurDiaporama/imageDansDiaporama.cpp ../lecteurDiaporama/imageDansDiaporama.h \
@@ -1356,18 +1396,28 @@ release/lecteur.o: ../lecteurDiaporama/lecteur.cpp ../lecteurDiaporama/lecteur.h
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmath.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qbindingstorage.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QDebug \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdebug.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qhash.h \
+		../lecteurDiaporama/database.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qvariant.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmap.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qshareddata.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qshareddata_impl.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qhash.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdebug.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qtextstream.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringconverter.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qset.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QStringList \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\lecteur.o ..\lecteurDiaporama\lecteur.cpp
 
 release/lecteurpresentation.o: ../lecteurDiaporama/lecteurpresentation.cpp ../lecteurDiaporama/lecteurpresentation.h \
@@ -1511,8 +1561,6 @@ release/lecteurpresentation.o: ../lecteurDiaporama/lecteurpresentation.cpp ../le
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
-		../lecteurDiaporama/database.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		../lecteurDiaporama/lecteurvue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmainwindow.h \
@@ -1524,6 +1572,9 @@ release/lecteurpresentation.o: ../lecteurDiaporama/lecteurpresentation.cpp ../le
 		../lecteurDiaporama/imageDansDiaporama.h \
 		../lecteurDiaporama/diaporama.h \
 		../lecteurDiaporama/lecteur.h \
+		../lecteurDiaporama/database.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QStringList \
 		ui_lecteurvue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QVariant \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/QAction \
@@ -1728,8 +1779,6 @@ release/lecteurvue.o: ../lecteurDiaporama/lecteurvue.cpp ../lecteurDiaporama/lec
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
-		../lecteurDiaporama/database.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		../lecteurDiaporama/aproposde.h \
 		../lecteurDiaporama/imageDansDiaporama.h \
 		../lecteurDiaporama/diaporama.h \
@@ -1779,7 +1828,10 @@ release/lecteurvue.o: ../lecteurDiaporama/lecteurvue.cpp ../lecteurDiaporama/lec
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qstatusbar.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QVBoxLayout \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QWidget \
-		../lecteurDiaporama/lecteur.h
+		../lecteurDiaporama/lecteur.h \
+		../lecteurDiaporama/database.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QStringList
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\lecteurvue.o ..\lecteurDiaporama\lecteurvue.cpp
 
 release/main.o: ../lecteurDiaporama/main.cpp ../lecteurDiaporama/lecteur.h \
@@ -1853,6 +1905,27 @@ release/main.o: ../lecteurDiaporama/main.cpp ../lecteurDiaporama/lecteur.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmath.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qbindingstorage.h \
+		../lecteurDiaporama/database.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmap.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qshareddata.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qshareddata_impl.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qhash.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdebug.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qtextstream.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringconverter.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qset.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcontiguouscache.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QStringList \
 		../lecteurDiaporama/lecteurpresentation.h \
 		../lecteurDiaporama/changerdiaporama.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -1878,24 +1951,12 @@ release/main.o: ../lecteurDiaporama/main.cpp ../lecteurDiaporama/lecteur.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qcolor.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qrgb.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qrgba64.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qshareddata.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qimage.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qpixelformat.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtransform.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qpolygon.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qregion.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qline.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qvariant.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmap.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qshareddata_impl.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qhash.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdebug.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qtextstream.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringconverter.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qset.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qpalette.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qbrush.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qfont.h \
@@ -1920,14 +1981,6 @@ release/main.o: ../lecteurDiaporama/main.cpp ../lecteurDiaporama/lecteur.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlQuery \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqlquery.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlglobal.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
-		../lecteurDiaporama/database.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		../lecteurDiaporama/lecteurvue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMainWindow \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmainwindow.h \

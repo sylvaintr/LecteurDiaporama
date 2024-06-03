@@ -30,7 +30,7 @@ public:
     void demanderRalentir();
     void changementvitesse();
     void demanderChangerimg();
-    void demanderChangerchemain();
+    void demanderChangerchemin();
 public slots:
 
 

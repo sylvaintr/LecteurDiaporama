@@ -43,7 +43,7 @@ public slots:
     void demanderChanger();
     void demanderAvancerauto();
     void demanderChangerimg();
-    void demanderChangerchemainimg();
+    void demanderChangercheminimg();
 private:
     Ui::LecteurVue *ui;
     LecteurPresentation * _presantation;

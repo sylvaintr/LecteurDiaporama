@@ -227,7 +227,6 @@ public:
         menufichier->addAction(actionQuitter);
         menufichier->addAction(actionChanger_diaporama);
         menufichier->addAction(actionVider_lecteur);
-        menuParam_tre->addAction(actionBoucler);
         menuParam_tre->addAction(actionPar_d_faut);
         menuParam_tre->addAction(actionVitesse);
         menuParam_tre->addAction(actionmodifier_le_nom_des_image);

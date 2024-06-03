@@ -46,7 +46,7 @@ public:
     {
         if (AProposDe->objectName().isEmpty())
             AProposDe->setObjectName(QString::fromUtf8("AProposDe"));
-        AProposDe->resize(800, 600);
+        AProposDe->resize(381, 315);
         centralwidget = new QWidget(AProposDe);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayout = new QVBoxLayout(centralwidget);
@@ -109,7 +109,7 @@ public:
         AProposDe->setCentralWidget(centralwidget);
         menubar = new QMenuBar(AProposDe);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 26));
+        menubar->setGeometry(QRect(0, 0, 381, 22));
         AProposDe->setMenuBar(menubar);
         statusbar = new QStatusBar(AProposDe);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -123,13 +123,13 @@ public:
     void retranslateUi(QMainWindow *AProposDe)
     {
         AProposDe->setWindowTitle(QCoreApplication::translate("AProposDe", "MainWindow", nullptr));
-        label->setText(QCoreApplication::translate("AProposDe", "a propo de ", nullptr));
-        label_2->setText(QCoreApplication::translate("AProposDe", "vertion ", nullptr));
-        label_3->setText(QCoreApplication::translate("AProposDe", "date", nullptr));
-        label_4->setText(QCoreApplication::translate("AProposDe", "auteur ", nullptr));
-        label_5->setText(QCoreApplication::translate("AProposDe", "sylvain andoni tatiana", nullptr));
-        label_6->setText(QCoreApplication::translate("AProposDe", "14/05/2024", nullptr));
-        label_7->setText(QCoreApplication::translate("AProposDe", "v5", nullptr));
+        label->setText(QCoreApplication::translate("AProposDe", "A propos de...", nullptr));
+        label_2->setText(QCoreApplication::translate("AProposDe", "Versions", nullptr));
+        label_3->setText(QCoreApplication::translate("AProposDe", "Date", nullptr));
+        label_4->setText(QCoreApplication::translate("AProposDe", "Auteurs", nullptr));
+        label_5->setText(QCoreApplication::translate("AProposDe", "Andoni BERHO, Tatiana NOVION, Sylvain TROUILH", nullptr));
+        label_6->setText(QCoreApplication::translate("AProposDe", "31/05/2024", nullptr));
+        label_7->setText(QCoreApplication::translate("AProposDe", "V8 MVP", nullptr));
     } // retranslateUi
 
 };

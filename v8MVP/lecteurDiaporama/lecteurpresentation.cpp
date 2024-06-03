@@ -127,7 +127,7 @@ void LecteurPresentation::changementvitesse()
 void LecteurPresentation::demanderChangerimg()
 {
     getModele()->getDb()->openDataBase();
-    QStringList listeimage = getModele()->getDb()->toutlesimage();
+    QStringList listeimage = getModele()->getDb()->touteslesimages();
 
     for(int i =0 ; listeimage.size()>i ; i++){
 
@@ -143,10 +143,10 @@ void LecteurPresentation::demanderChangerimg()
     }
 }
 
-void LecteurPresentation::demanderChangerchemain()
+void LecteurPresentation::demanderChangerchemin()
 {
     getModele()->getDb()->openDataBase();
-    QStringList listeimage = getModele()->getDb()->toutleschemain();
+    QStringList listeimage = getModele()->getDb()->tousleschemins();
 
     for(int i =0 ; listeimage.size()>i ; i++){
 
@@ -155,7 +155,7 @@ void LecteurPresentation::demanderChangerchemain()
         if (*ok)
         {
             if(nouvitesse != ""){
-                getModele()->getDb()->mettreJourchemainImg(nouvitesse,i);
+                getModele()->getDb()->mettreJourcheminImg(nouvitesse,i);
             }
 
     }

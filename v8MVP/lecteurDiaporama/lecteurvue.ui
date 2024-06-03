@@ -252,7 +252,6 @@
     <property name="title">
      <string>Paramètre</string>
     </property>
-    <addaction name="actionBoucler"/>
     <addaction name="actionPar_d_faut"/>
     <addaction name="actionVitesse"/>
     <addaction name="actionmodifier_le_nom_des_image"/>

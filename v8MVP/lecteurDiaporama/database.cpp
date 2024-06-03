@@ -62,7 +62,7 @@ void database::imagesDUnDiaporama(int id, QList<int> &rank, QStringList &listeti
        }
 }
 
-QStringList database::toutlesimage()
+QStringList database::touteslesimages()
 {
     QStringList listeimage;
     QSqlQuery query;
@@ -72,7 +72,7 @@ QStringList database::toutlesimage()
     }
     return(listeimage);
 }
-QStringList database::toutleschemain()
+QStringList database::tousleschemins()
 {
     QStringList listeimage;
     QSqlQuery query;
@@ -82,7 +82,7 @@ QStringList database::toutleschemain()
     }
     return(listeimage);
 }
-void database::mettreJourchemainImg(QString nouvche, int idphoto)
+void database::mettreJourcheminImg(QString nouvche, int idphoto)
 {
     QSqlQuery query;
     query.prepare("UPDATE Diapos SET uriPhoto = ? WHERE idphoto = ?");

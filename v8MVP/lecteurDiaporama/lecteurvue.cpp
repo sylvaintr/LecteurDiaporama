@@ -23,6 +23,7 @@ LecteurVue::LecteurVue(QWidget *parent) :
     QObject::connect(ui->actionmodifier_le_chemain_des_image, SIGNAL(triggered()), this, SLOT(demanderChangerchemainimg()));
     Diaporama * d = new Diaporama();
     majvuediaporama(d);
+    setWindowTitle("Lecteur de diaporama");
 }
 
 LecteurVue::~LecteurVue()
@@ -93,9 +94,9 @@ void LecteurVue::demanderChangerimg()
     getPresantation()->demanderChangerimg();
 }
 
-void LecteurVue::demanderChangerchemainimg()
+void LecteurVue::demanderChangercheminimg()
 {
-    getPresantation()->demanderChangerchemain();
+    getPresantation()->demanderChangerchemin();
 }
 
 QTimer *LecteurVue::getTimer() const
@@ -138,7 +139,7 @@ void LecteurVue::majvuediaporama(Diaporama *d)
         ui->automatique->hide();
         ui->reculer->hide();
         ui->ralentir->hide();
-        ui->titreDiapo->setText("pas de diaporama");
+        ui->titreDiapo->setText("Pas de diaporama");
     }
     else{
         ui->avancer->show();

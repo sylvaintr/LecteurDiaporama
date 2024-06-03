@@ -19,11 +19,11 @@ public:
     QStringList nomdiaporama();
     void imagesDUnDiaporama(int id,QList<int>& rank,QStringList& listetitre, QStringList& listecategorie, QStringList& listechemain);
     void caractericitiqueDiaporama(int id );
-    QStringList toutlesimage();
+    QStringList touteslesimages();
     void mettreJourNomImg(QString,int);
     void changervitesse(int vitesse, int iddiporama);
-    QStringList toutleschemain();
-    void mettreJourchemainImg(QString,int);
+    QStringList tousleschemins();
+    void mettreJourcheminImg(QString,int);
 
 private:
     QSqlDatabase mybd;

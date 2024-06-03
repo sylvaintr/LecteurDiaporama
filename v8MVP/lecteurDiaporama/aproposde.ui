@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>381</width>
+    <height>315</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,7 +39,7 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>a propo de </string>
+         <string>A propos de...</string>
         </property>
        </widget>
       </item>
@@ -63,42 +63,42 @@
       <item row="0" column="0">
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>vertion </string>
+         <string>Versions</string>
         </property>
        </widget>
       </item>
       <item row="1" column="0">
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>date</string>
+         <string>Date</string>
         </property>
        </widget>
       </item>
       <item row="2" column="0">
        <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>auteur </string>
+         <string>Auteurs</string>
         </property>
        </widget>
       </item>
       <item row="2" column="1">
        <widget class="QLabel" name="label_5">
         <property name="text">
-         <string>sylvain andoni tatiana</string>
+         <string>Andoni BERHO, Tatiana NOVION, Sylvain TROUILH</string>
         </property>
        </widget>
       </item>
       <item row="1" column="1">
        <widget class="QLabel" name="label_6">
         <property name="text">
-         <string>14/05/2024</string>
+         <string>31/05/2024</string>
         </property>
        </widget>
       </item>
       <item row="0" column="1">
        <widget class="QLabel" name="label_7">
         <property name="text">
-         <string>v5</string>
+         <string>V8 MVP</string>
         </property>
        </widget>
       </item>
@@ -111,8 +111,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>26</height>
+     <width>381</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
