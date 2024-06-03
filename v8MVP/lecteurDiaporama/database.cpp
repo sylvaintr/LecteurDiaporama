@@ -72,7 +72,24 @@ QStringList database::toutlesimage()
     }
     return(listeimage);
 }
-
+QStringList database::toutleschemain()
+{
+    QStringList listeimage;
+    QSqlQuery query;
+    query.exec("SELECT * FROM Diapos ");
+    for(int i = 0; query.next(); i++){
+        listeimage << query.value(3).toString();
+    }
+    return(listeimage);
+}
+void database::mettreJourchemainImg(QString nouvche, int idphoto)
+{
+    QSqlQuery query;
+    query.prepare("UPDATE Diapos SET uriPhoto = ? WHERE idphoto = ?");
+    query.addBindValue(nouvche);
+    query.addBindValue(idphoto);
+    query.exec();
+}
 void database::mettreJourNomImg(QString nouvNom, int idphoto)
 {
     QSqlQuery query;
@@ -80,6 +97,17 @@ void database::mettreJourNomImg(QString nouvNom, int idphoto)
     query.addBindValue(nouvNom);
     query.addBindValue(idphoto);
     query.exec();
+}
+
+void database::changervitesse(int vitesse, int iddiporama )
+{
+
+        QSqlQuery query;
+        query.prepare("UPDATE Diaporamas SET vitesseDefilement = ? WHERE idDiaporama = ?");
+        query.addBindValue(vitesse);
+        query.addBindValue(iddiporama);
+        query.exec();
+
 }
 
 

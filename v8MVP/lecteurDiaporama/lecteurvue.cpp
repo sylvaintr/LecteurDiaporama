@@ -20,6 +20,7 @@ LecteurVue::LecteurVue(QWidget *parent) :
     QObject::connect(ui->ralentir, SIGNAL(clicked()), this, SLOT(demanderRalentir()));
     QObject::connect(ui->actionChanger_diaporama, SIGNAL(triggered()), this, SLOT(demanderChanger()));
     QObject::connect(ui->actionmodifier_le_nom_des_image, SIGNAL(triggered()), this, SLOT(demanderChangerimg()));
+    QObject::connect(ui->actionmodifier_le_chemain_des_image, SIGNAL(triggered()), this, SLOT(demanderChangerchemainimg()));
     Diaporama * d = new Diaporama();
     majvuediaporama(d);
 }
@@ -90,6 +91,11 @@ void LecteurVue::demanderAvancerauto()
 void LecteurVue::demanderChangerimg()
 {
     getPresantation()->demanderChangerimg();
+}
+
+void LecteurVue::demanderChangerchemainimg()
+{
+    getPresantation()->demanderChangerchemain();
 }
 
 QTimer *LecteurVue::getTimer() const

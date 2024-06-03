@@ -21,8 +21,13 @@ public:
     void caractericitiqueDiaporama(int id );
     QStringList toutlesimage();
     void mettreJourNomImg(QString,int);
+    void changervitesse(int vitesse, int iddiporama);
+    QStringList toutleschemain();
+    void mettreJourchemainImg(QString,int);
+
 private:
     QSqlDatabase mybd;
+
 };
 
 #endif // DATABASE_H

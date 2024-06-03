@@ -100,24 +100,26 @@ void LecteurPresentation::demanderAccelerer()
 {
     getModele()->getDiaporama()->setVitesseDefilement(getModele()->getDiaporama()->getVitesseDefilement()*0.5);
     getVue()->getTimer()->setInterval(getModele()->getDiaporama()->getVitesseDefilement());
-    qDebug() << "Accelerer - Disponible en v4_MVP !";
+    getModele()->getDb()->changervitesse(getModele()->getDiaporama()->getVitesseDefilement()/1000, getModele()->getIdDiaporama() );
 }
 
 void LecteurPresentation::demanderRalentir()
 {
     getModele()->getDiaporama()->setVitesseDefilement(getModele()->getDiaporama()->getVitesseDefilement()*2);
     getVue()->getTimer()->setInterval(getModele()->getDiaporama()->getVitesseDefilement());
-    qDebug() << "Ralentir - Disponible en v4_MVP !";
+    getModele()->getIdDiaporama();
+    getModele()->getDb()->changervitesse(getModele()->getDiaporama()->getVitesseDefilement()/1000, getModele()->getIdDiaporama() );
 }
 
 void LecteurPresentation::changementvitesse()
 {
     bool * ok = new bool;
-    int  nouvitesse = QInputDialog::getInt( getVue(), "changementvitesse", "Quelle est la vitesse ?",0,0,2147483647,1,ok);
+    double  nouvitesse = QInputDialog::getDouble( getVue(), "changementvitesse", "Quelle est la vitesse ?",0,0,2147483647,1,ok);
     if (*ok)
     {
-        getModele()->getDiaporama()->setVitesseDefilement(nouvitesse);
-        getVue()->getTimer()->setInterval(nouvitesse);
+        getModele()->getDiaporama()->setVitesseDefilement(nouvitesse*1000);
+        getVue()->getTimer()->setInterval(nouvitesse*1000);
+        getModele()->getDb()->changervitesse(nouvitesse, getModele()->getIdDiaporama() );
     }
 
 }
@@ -130,7 +132,7 @@ void LecteurPresentation::demanderChangerimg()
     for(int i =0 ; listeimage.size()>i ; i++){
 
         bool * ok = new bool;
-        QString  nouvitesse = QInputDialog::getText(getVue(),"","quelles est le nouvau non de l'image "+listeimage.at(i),QLineEdit::EchoMode(),"",ok)  ;
+        QString  nouvitesse = QInputDialog::getText(getVue(),"","quelles est le nouvau nom de l'image "+listeimage.at(i),QLineEdit::EchoMode(),"",ok)  ;
         if (*ok)
         {
             if(nouvitesse != ""){
@@ -141,6 +143,24 @@ void LecteurPresentation::demanderChangerimg()
     }
 }
 
+void LecteurPresentation::demanderChangerchemain()
+{
+    getModele()->getDb()->openDataBase();
+    QStringList listeimage = getModele()->getDb()->toutleschemain();
+
+    for(int i =0 ; listeimage.size()>i ; i++){
+
+        bool * ok = new bool;
+        QString  nouvitesse = QInputDialog::getText(getVue(),"","quelles est le nouvau chemain de l'image "+listeimage.at(i),QLineEdit::EchoMode(),"",ok)  ;
+        if (*ok)
+        {
+            if(nouvitesse != ""){
+                getModele()->getDb()->mettreJourchemainImg(nouvitesse,i);
+            }
+
+    }
+    }
+}
 void LecteurPresentation::demanderVider()
 {
     getModele()->setAutom(false);
