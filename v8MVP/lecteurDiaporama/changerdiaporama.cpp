@@ -10,15 +10,10 @@ changerdiaporama::changerdiaporama(QWidget *parent) :
 {
 
     ui->setupUi(this);
-    /*
-    ui->comboBox->addItem("diaporama de Pantxika");
-    ui->comboBox->addItem("diaporama de Thierry");
-    ui->comboBox->addItem("diaporama de Yann");
-    ui->comboBox->addItem("diaporama de Manu");*/
-
+    setWindowTitle("changer de diaporama");
     QObject::connect(ui->buttonBox, SIGNAL(accepted()), this , SLOT(valider()));
     QObject::connect(ui->buttonBox, SIGNAL(rejected()), this , SLOT(annuler()));
-
+    setWindowIcon(QIcon(":/cartesDisney/changer.png"));
 }
 
 changerdiaporama::~changerdiaporama()
@@ -43,7 +38,7 @@ void changerdiaporama::valider()
 
            _presantation->getModele()->changerDiaporama( query.value(0).toInt(),titre.toStdString(),query.value(2).toInt()*1000);
            _presantation->getVue()->majvue(_presantation->getModele()->getImageCourante());
-           _presantation->getVue()->majvuediaporama(_presantation->getModele()->getDiaporama());
+           _presantation->getVue()->majVueDiaporama(_presantation->getModele()->getDiaporama());
             _presantation->getVue()->getTimer()->stop();
             _presantation->getModele()->setAutom(false);
        }
@@ -63,7 +58,7 @@ void changerdiaporama::setPresantation(LecteurPresentation *newPresantation)
 }
 void changerdiaporama::majinterface(){
 
-        QStringList listdiaporama = getpresantation()->getModele()->getDb()->nomdiaporama();
+        QStringList listdiaporama = getpresantation()->getModele()->getDb()->nomDiaporama();
         for (int i = 0; i < listdiaporama.size(); ++i) {
              ui->comboBox->addItem(listdiaporama.at(i));
 

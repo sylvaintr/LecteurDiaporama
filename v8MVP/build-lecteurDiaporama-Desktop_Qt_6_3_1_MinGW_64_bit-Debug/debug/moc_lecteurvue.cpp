@@ -41,9 +41,9 @@ QT_MOC_LITERAL(121, 16), // "demanderRalentir"
 QT_MOC_LITERAL(138, 25), // "demanderchangementvitesse"
 QT_MOC_LITERAL(164, 13), // "demanderVider"
 QT_MOC_LITERAL(178, 15), // "demanderChanger"
-QT_MOC_LITERAL(194, 19), // "demanderAvancerauto"
-QT_MOC_LITERAL(214, 18), // "demanderChangerimg"
-QT_MOC_LITERAL(233, 24) // "demanderChangercheminimg"
+QT_MOC_LITERAL(194, 19), // "demanderAvancerAuto"
+QT_MOC_LITERAL(214, 18), // "demanderChangerImg"
+QT_MOC_LITERAL(233, 24) // "demanderChangerCheminImg"
 
     },
     "LecteurVue\0afficherfenetreapropode\0\0"
@@ -51,8 +51,8 @@ QT_MOC_LITERAL(233, 24) // "demanderChangercheminimg"
     "demanderReculer\0demanderAutomatique\0"
     "demanderAccelerer\0demanderRalentir\0"
     "demanderchangementvitesse\0demanderVider\0"
-    "demanderChanger\0demanderAvancerauto\0"
-    "demanderChangerimg\0demanderChangercheminimg"
+    "demanderChanger\0demanderAvancerAuto\0"
+    "demanderChangerImg\0demanderChangerCheminImg"
 };
 #undef QT_MOC_LITERAL
 
@@ -118,9 +118,9 @@ void LecteurVue::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 7: _t->demanderchangementvitesse(); break;
         case 8: _t->demanderVider(); break;
         case 9: _t->demanderChanger(); break;
-        case 10: _t->demanderAvancerauto(); break;
-        case 11: _t->demanderChangerimg(); break;
-        case 12: _t->demanderChangercheminimg(); break;
+        case 10: _t->demanderAvancerAuto(); break;
+        case 11: _t->demanderChangerImg(); break;
+        case 12: _t->demanderChangerCheminImg(); break;
         default: ;
         }
     }

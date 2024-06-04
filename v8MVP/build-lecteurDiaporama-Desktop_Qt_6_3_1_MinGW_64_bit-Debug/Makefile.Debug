@@ -158,6 +158,7 @@ debug/qrc_image.cpp: ../cartesDisney/image.qrc \
 		../cartesDisney/cartesDisney/Disney_17.gif \
 		../cartesDisney/cartesDisney/Disney_52.gif \
 		../cartesDisney/cartesDisney/Disney_53.gif \
+		../cartesDisney/cartesDisney/apropode.png \
 		../cartesDisney/cartesDisney/Disney_2.gif \
 		../cartesDisney/cartesDisney/Disney_48.gif \
 		../cartesDisney/cartesDisney/Disney_5.gif \
@@ -179,10 +180,12 @@ debug/qrc_image.cpp: ../cartesDisney/image.qrc \
 		../cartesDisney/cartesDisney/Disney_51.gif \
 		../cartesDisney/cartesDisney/Disney_46.gif \
 		../cartesDisney/cartesDisney/Disney_50.gif \
+		../cartesDisney/cartesDisney/changer.png \
 		../cartesDisney/cartesDisney/Disney_27.gif \
 		../cartesDisney/cartesDisney/Disney_43.gif \
 		../cartesDisney/cartesDisney/Disney_tapis.png \
 		../cartesDisney/cartesDisney/Disney_20.gif \
+		../cartesDisney/cartesDisney/diaporama.png \
 		../cartesDisney/cartesDisney/Disney_23.gif \
 		../cartesDisney/cartesDisney/Disney_21.gif \
 		../cartesDisney/cartesDisney/Disney_28.gif \
@@ -342,7 +345,7 @@ debug/moc_aproposde.cpp: ../lecteurDiaporama/aproposde.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
 		debug/moc_predefs.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\aproposde.h -o debug\moc_aproposde.cpp
+	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/cour/butinfo20232024/SAE/2.01/coucou/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/cour/butinfo20232024/SAE/2.01/coucou/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\aproposde.h -o debug\moc_aproposde.cpp
 
 debug/moc_changerdiaporama.cpp: ../lecteurDiaporama/changerdiaporama.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QDialog \
@@ -486,7 +489,7 @@ debug/moc_changerdiaporama.cpp: ../lecteurDiaporama/changerdiaporama.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
 		debug/moc_predefs.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\changerdiaporama.h -o debug\moc_changerdiaporama.cpp
+	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/cour/butinfo20232024/SAE/2.01/coucou/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/cour/butinfo20232024/SAE/2.01/coucou/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\changerdiaporama.h -o debug\moc_changerdiaporama.cpp
 
 debug/moc_lecteurvue.cpp: ../lecteurDiaporama/lecteurvue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QObject \
@@ -641,7 +644,7 @@ debug/moc_lecteurvue.cpp: ../lecteurDiaporama/lecteurvue.h \
 		../lecteurDiaporama/diaporama.h \
 		debug/moc_predefs.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/bin/moc.exe
-	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\lecteurvue.h -o debug\moc_lecteurvue.cpp
+	C:\Qt\Qt6.3.1\6.3.1\mingw_64\bin\moc.exe $(DEFINES) --include F:/cour/butinfo20232024/SAE/2.01/coucou/LecteurDiaporama/v8MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++ -IF:/cour/butinfo20232024/SAE/2.01/coucou/LecteurDiaporama/v8MVP/lecteurDiaporama -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql -IC:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore -I. -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Qt6.3.1/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\lecteurDiaporama\lecteurvue.h -o debug\moc_lecteurvue.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -1628,7 +1631,9 @@ debug/lecteurpresentation.o: ../lecteurDiaporama/lecteurpresentation.cpp ../lect
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtextcursor.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtextformat.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtextoption.h
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\lecteurpresentation.o ..\lecteurDiaporama\lecteurpresentation.cpp
 
 debug/lecteurvue.o: ../lecteurDiaporama/lecteurvue.cpp ../lecteurDiaporama/lecteurvue.h \

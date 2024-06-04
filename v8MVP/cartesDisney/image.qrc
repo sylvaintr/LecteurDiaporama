@@ -58,5 +58,8 @@
         <file>cartesDisney/Disney_tapis.gif</file>
         <file>cartesDisney/Disney_tapis.png</file>
         <file>cartesDisney/Disney_tapisOld.png</file>
+        <file>cartesDisney/apropode.png</file>
+        <file>cartesDisney/changer.png</file>
+        <file>cartesDisney/diaporama.png</file>
     </qresource>
 </RCC>

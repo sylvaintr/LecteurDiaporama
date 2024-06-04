@@ -29,7 +29,7 @@ public:
     QTimer *getTimer() const;
     void setTimer(QTimer *newTimer);
 
-    void majvuediaporama(Diaporama *d);
+    void majVueDiaporama(Diaporama *d);
 public slots:
     void afficherfenetreapropode();
     void demanderquiter();
@@ -41,9 +41,9 @@ public slots:
     void demanderchangementvitesse();
     void demanderVider();
     void demanderChanger();
-    void demanderAvancerauto();
-    void demanderChangerimg();
-    void demanderChangercheminimg();
+    void demanderAvancerAuto();
+    void demanderChangerImg();
+    void demanderChangerCheminImg();
 private:
     Ui::LecteurVue *ui;
     LecteurPresentation * _presantation;

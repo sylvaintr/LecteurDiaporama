@@ -16,14 +16,14 @@ public:
     void closeDataBase();
     const QSqlDatabase &getMybd() const;
     void setMybd(const QSqlDatabase &newMybd);
-    QStringList nomdiaporama();
+    QStringList nomDiaporama();
     void imagesDUnDiaporama(int id,QList<int>& rank,QStringList& listetitre, QStringList& listecategorie, QStringList& listechemain);
     void caractericitiqueDiaporama(int id );
-    QStringList touteslesimages();
+    QStringList toutesLesImages();
     void mettreJourNomImg(QString,int);
-    void changervitesse(int vitesse, int iddiporama);
-    QStringList tousleschemins();
-    void mettreJourcheminImg(QString,int);
+    void changerVitesse(int vitesse, int iddiporama);
+    QStringList tousLesChemins();
+    void mettreJourCheminImg(QString,int);
 
 private:
     QSqlDatabase mybd;

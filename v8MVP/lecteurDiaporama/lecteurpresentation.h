@@ -28,9 +28,9 @@ public:
     void demanderAutomatique();
     void demanderAccelerer();
     void demanderRalentir();
-    void changementvitesse();
-    void demanderChangerimg();
-    void demanderChangerchemin();
+    void changementVitesse();
+    void demanderChangerImg();
+    void demanderChangerChemin();
 public slots:
 
 
