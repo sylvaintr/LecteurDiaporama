@@ -23,8 +23,8 @@ public:
     void demanderQuitter();
     void demanderAvancer();
     void demanderReculer();
-public slots:
 
+public slots:
     void demanderAutomatique();
     void demanderAccelerer();
     void demanderRalentir();

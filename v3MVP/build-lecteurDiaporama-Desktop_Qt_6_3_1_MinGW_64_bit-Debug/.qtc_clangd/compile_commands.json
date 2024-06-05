@@ -9,7 +9,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -32,7 +32,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -42,9 +42,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -68,10 +68,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\aproposde.cpp"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\aproposde.cpp"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/aproposde.cpp"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/aproposde.cpp"
 },
 {
     "arguments": [
@@ -83,7 +83,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -106,7 +106,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -116,9 +116,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -142,10 +142,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\diaporama.cpp"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\diaporama.cpp"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/diaporama.cpp"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/diaporama.cpp"
 },
 {
     "arguments": [
@@ -157,7 +157,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -180,7 +180,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -190,9 +190,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -216,10 +216,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\imageDansDiaporama.cpp"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\imageDansDiaporama.cpp"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/imageDansDiaporama.cpp"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/imageDansDiaporama.cpp"
 },
 {
     "arguments": [
@@ -231,7 +231,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -254,7 +254,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -264,9 +264,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -290,10 +290,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\lecteur.cpp"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\lecteur.cpp"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/lecteur.cpp"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/lecteur.cpp"
 },
 {
     "arguments": [
@@ -305,7 +305,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -328,7 +328,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -338,9 +338,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -364,10 +364,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\lecteurpresentation.cpp"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\lecteurpresentation.cpp"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/lecteurpresentation.cpp"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/lecteurpresentation.cpp"
 },
 {
     "arguments": [
@@ -379,7 +379,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -402,7 +402,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -412,9 +412,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -438,10 +438,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\lecteurvue.cpp"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\lecteurvue.cpp"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/lecteurvue.cpp"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/lecteurvue.cpp"
 },
 {
     "arguments": [
@@ -453,7 +453,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -476,7 +476,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -486,9 +486,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -512,10 +512,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\main.cpp"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\main.cpp"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/main.cpp"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/main.cpp"
 },
 {
     "arguments": [
@@ -527,7 +527,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -550,7 +550,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -560,9 +560,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -586,10 +586,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\aproposde.h"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\aproposde.h"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/aproposde.h"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/aproposde.h"
 },
 {
     "arguments": [
@@ -601,7 +601,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -624,7 +624,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -634,9 +634,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -660,10 +660,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\diaporama.h"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\diaporama.h"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/diaporama.h"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/diaporama.h"
 },
 {
     "arguments": [
@@ -675,7 +675,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -698,7 +698,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -708,9 +708,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -734,10 +734,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\imageDansDiaporama.h"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\imageDansDiaporama.h"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/imageDansDiaporama.h"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/imageDansDiaporama.h"
 },
 {
     "arguments": [
@@ -749,7 +749,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -772,7 +772,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -782,9 +782,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -808,10 +808,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\lecteur.h"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\lecteur.h"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/lecteur.h"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/lecteur.h"
 },
 {
     "arguments": [
@@ -823,7 +823,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -846,7 +846,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -856,9 +856,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -882,10 +882,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\lecteurpresentation.h"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\lecteurpresentation.h"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/lecteurpresentation.h"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/lecteurpresentation.h"
 },
 {
     "arguments": [
@@ -897,7 +897,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -920,7 +920,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -930,9 +930,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -956,10 +956,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama\\lecteurvue.h"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama\\lecteurvue.h"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/lecteurDiaporama/lecteurvue.h"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/lecteurDiaporama/lecteurvue.h"
 },
 {
     "arguments": [
@@ -971,7 +971,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -994,7 +994,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1004,9 +1004,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1030,10 +1030,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_aproposde.h"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_aproposde.h"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_aproposde.h"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_aproposde.h"
 },
 {
     "arguments": [
@@ -1045,7 +1045,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_strouilh\\Temp\\QtCreator-gyfEyY\\clang-uiheader-wiEVfA",
+        "C:\\Users\\local_tnovion\\Temp\\QtCreator-OvEXVN\\clang-uiheader-AsfPry",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1068,7 +1068,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\lecteurDiaporama",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\lecteurDiaporama",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1078,9 +1078,9 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -1104,9 +1104,9 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "\\\\haya\\dossiersetud_BaieSsd\\strouilh\\Downloads\\lecteurDiaporama\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_lecteurvue.h"
+        "F:\\Cours\\annee1\\S2\\SAE\\S2.01\\LecteurDiaporama\\v3MVP\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_lecteurvue.h"
     ],
-    "directory": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "//haya/dossiersetud_BaieSsd/strouilh/Downloads/lecteurDiaporama/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_lecteurvue.h"
+    "directory": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/Cours/annee1/S2/SAE/S2.01/LecteurDiaporama/v3MVP/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_lecteurvue.h"
 }
 ]

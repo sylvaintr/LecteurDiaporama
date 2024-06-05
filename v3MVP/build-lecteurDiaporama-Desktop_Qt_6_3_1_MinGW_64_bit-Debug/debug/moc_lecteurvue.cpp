@@ -23,22 +23,22 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_LecteurVue_t {
     const uint offsetsAndSize[12];
-    char stringdata0[83];
+    char stringdata0[85];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_LecteurVue_t, stringdata0) + ofs), len 
 static const qt_meta_stringdata_LecteurVue_t qt_meta_stringdata_LecteurVue = {
     {
 QT_MOC_LITERAL(0, 10), // "LecteurVue"
-QT_MOC_LITERAL(11, 23), // "afficherfenetreapropode"
-QT_MOC_LITERAL(35, 0), // ""
-QT_MOC_LITERAL(36, 14), // "demanderquiter"
-QT_MOC_LITERAL(51, 15), // "demanderAvancer"
-QT_MOC_LITERAL(67, 15) // "demanderReculer"
+QT_MOC_LITERAL(11, 24), // "afficherFenetreAProposDe"
+QT_MOC_LITERAL(36, 0), // ""
+QT_MOC_LITERAL(37, 15), // "demanderQuitter"
+QT_MOC_LITERAL(53, 15), // "demanderAvancer"
+QT_MOC_LITERAL(69, 15) // "demanderReculer"
 
     },
-    "LecteurVue\0afficherfenetreapropode\0\0"
-    "demanderquiter\0demanderAvancer\0"
+    "LecteurVue\0afficherFenetreAProposDe\0"
+    "\0demanderQuitter\0demanderAvancer\0"
     "demanderReculer"
 };
 #undef QT_MOC_LITERAL
@@ -77,8 +77,8 @@ void LecteurVue::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<LecteurVue *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->afficherfenetreapropode(); break;
-        case 1: _t->demanderquiter(); break;
+        case 0: _t->afficherFenetreAProposDe(); break;
+        case 1: _t->demanderQuitter(); break;
         case 2: _t->demanderAvancer(); break;
         case 3: _t->demanderReculer(); break;
         default: ;

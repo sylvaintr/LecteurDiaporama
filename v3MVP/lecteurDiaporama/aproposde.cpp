@@ -6,6 +6,7 @@ AProposDe::AProposDe(QWidget *parent) :
     ui(new Ui::AProposDe)
 {
     ui->setupUi(this);
+    setWindowTitle("A propos de...");
 }
 
 AProposDe::~AProposDe()
