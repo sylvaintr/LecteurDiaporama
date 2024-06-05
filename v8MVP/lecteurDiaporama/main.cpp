@@ -17,12 +17,8 @@ int main(int argc, char **argv)
     v.setPresantation(p);
     p->setModele(l);
     p->setVue(&v);
-
-
-
     // Ouverture de la vue
     v.show();
-
     // Boucle et fin
     return a.exec();
 }

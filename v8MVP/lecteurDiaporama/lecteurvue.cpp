@@ -14,16 +14,17 @@ LecteurVue::LecteurVue(QWidget *parent) :
     QObject::connect(ui->actionQuitter, SIGNAL(triggered()), this, SLOT(demanderquiter()));
     QObject::connect(ui->avancer, SIGNAL(clicked()), this, SLOT(demanderAvancer()));
     QObject::connect(ui->reculer, SIGNAL(clicked()), this, SLOT(demanderReculer()));
-    QObject::connect(timer , SIGNAL(timeout()), this, SLOT(demanderAvancerauto()));
+    QObject::connect(timer , SIGNAL(timeout()), this, SLOT(demanderAvancerAuto()));
     QObject::connect(ui->automatique, SIGNAL(clicked()), this, SLOT(demanderAutomatique()));
     QObject::connect(ui->accelerer, SIGNAL(clicked()), this, SLOT(demanderAccelerer()));
     QObject::connect(ui->ralentir, SIGNAL(clicked()), this, SLOT(demanderRalentir()));
     QObject::connect(ui->actionChanger_diaporama, SIGNAL(triggered()), this, SLOT(demanderChanger()));
-    QObject::connect(ui->actionmodifier_le_nom_des_image, SIGNAL(triggered()), this, SLOT(demanderChangerimg()));
-    QObject::connect(ui->actionmodifier_le_chemain_des_image, SIGNAL(triggered()), this, SLOT(demanderChangerchemainimg()));
+    QObject::connect(ui->actionmodifier_le_nom_des_image, SIGNAL(triggered()), this, SLOT(demanderChangerImg()));
+    QObject::connect(ui->actionmodifier_le_chemain_des_image, SIGNAL(triggered()), this, SLOT(demanderChangerCheminImg()));
     Diaporama * d = new Diaporama();
-    majvuediaporama(d);
+    majVueDiaporama(d);
     setWindowTitle("Lecteur de diaporama");
+    setWindowIcon(QIcon(":/cartesDisney/diaporama.png"));
 }
 
 LecteurVue::~LecteurVue()
@@ -71,7 +72,7 @@ getPresantation()->demanderRalentir();
 
 void LecteurVue::demanderchangementvitesse()
 {
-    getPresantation()->changementvitesse();
+    getPresantation()->changementVitesse();
 }
 
 void LecteurVue::demanderVider()
@@ -84,19 +85,19 @@ void LecteurVue::demanderChanger()
     getPresantation()->demanderChanger();
 }
 
-void LecteurVue::demanderAvancerauto()
+void LecteurVue::demanderAvancerAuto()
 {
     getPresantation()->demanderAvancerauto();
 }
 
-void LecteurVue::demanderChangerimg()
+void LecteurVue::demanderChangerImg()
 {
-    getPresantation()->demanderChangerimg();
+    getPresantation()->demanderChangerImg();
 }
 
-void LecteurVue::demanderChangercheminimg()
+void LecteurVue::demanderChangerCheminImg()
 {
-    getPresantation()->demanderChangerchemin();
+    getPresantation()->demanderChangerChemin();
 }
 
 QTimer *LecteurVue::getTimer() const
@@ -127,7 +128,7 @@ void LecteurVue::majvue(ImageDansDiaporama *img)
     ui->numeroImage->setText(QString::number(img->getRangDansDiaporama()));
 }
 
-void LecteurVue::majvuediaporama(Diaporama *d)
+void LecteurVue::majVueDiaporama(Diaporama *d)
 {
 
 
@@ -139,6 +140,9 @@ void LecteurVue::majvuediaporama(Diaporama *d)
         ui->automatique->hide();
         ui->reculer->hide();
         ui->ralentir->hide();
+        ui->titreImage->hide();
+        ui->categorieImage->hide();
+        ui->numeroImage->hide();
         ui->titreDiapo->setText("Pas de diaporama");
     }
     else{
@@ -147,6 +151,9 @@ void LecteurVue::majvuediaporama(Diaporama *d)
         ui->automatique->show();
         ui->reculer->show();
         ui->ralentir->show();
+        ui->titreImage->show();
+        ui->categorieImage->show();
+        ui->numeroImage->show();
         ui->titreDiapo->setText(QString::fromStdString(d->getTitre()));
 
     }
