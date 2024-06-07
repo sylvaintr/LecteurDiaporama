@@ -23,36 +23,13 @@ LecteurVue::~LecteurVue()
     delete ui;
 }
 
-void LecteurVue::nouvelleConnexion(QObject *p)
-{
-
-
-    QObject::connect(ui->accelerer, SIGNAL(clicked()), p, SLOT(demanderAccelerer()));
-    QObject::connect(ui->ralentir, SIGNAL(clicked()), p, SLOT(demanderRalentir()));
-    QObject::connect(ui->actionVider_lecteur, SIGNAL(clicked()), p, SLOT(demanderVider()));
-    QObject::connect(ui->actionChanger_diaporama, SIGNAL(clicked()), p, SLOT(demanderChanger()));
-
-}
-
-void LecteurVue::supprimerConnexion(QObject *p)
-{
-    QObject::disconnect(ui->avancer, SIGNAL(clicked()), p, SLOT(demanderAvancer()));
-    QObject::disconnect(ui->reculer, SIGNAL(clicked()), p, SLOT(demanderReculer()));
-    QObject::disconnect(ui->automatique, SIGNAL(clicked()), p, SLOT(demanderAutomatique()));
-    QObject::disconnect(ui->accelerer, SIGNAL(clicked()), p, SLOT(demanderAccelerer()));
-    QObject::disconnect(ui->ralentir, SIGNAL(clicked()), p, SLOT(demanderRalentir()));
-    QObject::disconnect(ui->actionVider_lecteur, SIGNAL(clicked()), p, SLOT(demanderVider()));
-    QObject::disconnect(ui->actionChanger_diaporama, SIGNAL(clicked()), p, SLOT(demanderChanger()));
-
-}
-
 void LecteurVue::afficherfenetreapropode()
 {
     AProposDe * aprop = new AProposDe(this);
     aprop->show();
 }
 
-void LecteurVue::demanderquitter()
+void LecteurVue::demanderQuitter()
 {
     getPresantation()->demanderQuitter();
 }

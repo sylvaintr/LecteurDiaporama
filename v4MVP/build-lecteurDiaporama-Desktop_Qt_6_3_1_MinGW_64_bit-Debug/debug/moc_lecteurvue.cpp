@@ -32,7 +32,7 @@ static const qt_meta_stringdata_LecteurVue_t qt_meta_stringdata_LecteurVue = {
 QT_MOC_LITERAL(0, 10), // "LecteurVue"
 QT_MOC_LITERAL(11, 23), // "afficherfenetreapropode"
 QT_MOC_LITERAL(35, 0), // ""
-QT_MOC_LITERAL(36, 15), // "demanderquitter"
+QT_MOC_LITERAL(36, 15), // "demanderQuitter"
 QT_MOC_LITERAL(52, 15), // "demanderAvancer"
 QT_MOC_LITERAL(68, 15), // "demanderReculer"
 QT_MOC_LITERAL(84, 19), // "demanderAutomatique"
@@ -41,7 +41,7 @@ QT_MOC_LITERAL(122, 16) // "demanderRalentir"
 
     },
     "LecteurVue\0afficherfenetreapropode\0\0"
-    "demanderquitter\0demanderAvancer\0"
+    "demanderQuitter\0demanderAvancer\0"
     "demanderReculer\0demanderAutomatique\0"
     "demanderAccelerer\0demanderRalentir"
 };
@@ -88,7 +88,7 @@ void LecteurVue::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         (void)_t;
         switch (_id) {
         case 0: _t->afficherfenetreapropode(); break;
-        case 1: _t->demanderquitter(); break;
+        case 1: _t->demanderQuitter(); break;
         case 2: _t->demanderAvancer(); break;
         case 3: _t->demanderReculer(); break;
         case 4: _t->demanderAutomatique(); break;

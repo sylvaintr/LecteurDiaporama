@@ -83,8 +83,6 @@ int main(int argc, char **argv)
     p->setModele(l);
     p->setVue(&v);
 
-    v.nouvelleConnexion(p);
-
     // Ouverture de la vue
     v.show();
 

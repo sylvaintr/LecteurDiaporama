@@ -21,18 +21,15 @@ class LecteurVue : public QMainWindow
 public:
     explicit LecteurVue(QWidget *parent = nullptr);
     ~LecteurVue();
-    void nouvelleConnexion(QObject* p);
-    void supprimerConnexion(QObject* p);
     LecteurPresentation *getPresantation() const;
     void setPresantation(LecteurPresentation *newPresantation);
     void majvue(ImageDansDiaporama * img);
-
     QTimer *getTimer() const;
     void setTimer(QTimer *newTimer);
 
 public slots:
     void afficherfenetreapropode();
-    void demanderquitter();
+    void demanderQuitter();
     void demanderAvancer();
     void demanderReculer();
     void demanderAutomatique();

@@ -58,7 +58,7 @@ private:
     unsigned int posImageCourante;    /* position de l'image courante du diaporama courant.
                                          Indéfinie quand lecteur vide ou diaporama vide.
                                          >= 0 quand lecteur non vide et diaporama non vide */
-    bool autom;
+    bool autom;                     //état du lecteur de diaporama, true si défilement automatique sinon false
 private:
     void chargerDiaporamaCourant();    // charge dans le lecteur ImageDansDiaporama du numDiaporamaCourant
 };
