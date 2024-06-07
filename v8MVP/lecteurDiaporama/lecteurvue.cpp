@@ -11,7 +11,7 @@ LecteurVue::LecteurVue(QWidget *parent) :
     QObject::connect(ui->actionVider_lecteur, SIGNAL(triggered()), this, SLOT(demanderVider()));
     QObject::connect(ui->actionVitesse, SIGNAL(triggered()), this, SLOT(demanderchangementvitesse()));
     QObject::connect(ui->actionA_propos, SIGNAL(triggered()), this, SLOT(afficherfenetreapropode()));
-    QObject::connect(ui->actionQuitter, SIGNAL(triggered()), this, SLOT(demanderquiter()));
+    QObject::connect(ui->actionQuitter, SIGNAL(triggered()), this, SLOT(demanderQuitter()));
     QObject::connect(ui->avancer, SIGNAL(clicked()), this, SLOT(demanderAvancer()));
     QObject::connect(ui->reculer, SIGNAL(clicked()), this, SLOT(demanderReculer()));
     QObject::connect(timer , SIGNAL(timeout()), this, SLOT(demanderAvancerAuto()));
@@ -34,70 +34,70 @@ LecteurVue::~LecteurVue()
 
 
 
-void LecteurVue::afficherfenetreapropode()
+void LecteurVue::afficherFenetreAProposDe()
 {
     AProposDe * aprop = new AProposDe(this);
     aprop->show();
 }
 
-void LecteurVue::demanderquiter()
+void LecteurVue::demanderQuitter()
 {
-    getPresantation()->demanderQuitter();
+    getPresentation()->demanderQuitter();
 }
 
 void LecteurVue::demanderAvancer()
 {
- getPresantation()->demanderAvancer();
+    getPresentation()->demanderAvancer();
 }
 
 void LecteurVue::demanderReculer()
 {
-getPresantation()->demanderReculer();
+    getPresentation()->demanderReculer();
 }
 
 void LecteurVue::demanderAutomatique()
 {
-    getPresantation()->demanderAutomatique();
+    getPresentation()->demanderAutomatique();
 }
 
 void LecteurVue::demanderAccelerer()
 {
-    getPresantation()->demanderAccelerer();
+    getPresentation()->demanderAccelerer();
 }
 
 void LecteurVue::demanderRalentir()
 {
-getPresantation()->demanderRalentir();
+    getPresentation()->demanderRalentir();
 }
 
 void LecteurVue::demanderchangementvitesse()
 {
-    getPresantation()->changementVitesse();
+    getPresentation()->changementVitesse();
 }
 
 void LecteurVue::demanderVider()
 {
-    getPresantation()->demanderVider();
+    getPresentation()->demanderVider();
 }
 
 void LecteurVue::demanderChanger()
 {
-    getPresantation()->demanderChanger();
+    getPresentation()->demanderChanger();
 }
 
 void LecteurVue::demanderAvancerAuto()
 {
-    getPresantation()->demanderAvancerauto();
+    getPresentation()->demanderAvancerauto();
 }
 
 void LecteurVue::demanderChangerImg()
 {
-    getPresantation()->demanderChangerImg();
+    getPresentation()->demanderChangerImg();
 }
 
 void LecteurVue::demanderChangerCheminImg()
 {
-    getPresantation()->demanderChangerChemin();
+    getPresentation()->demanderChangerChemin();
 }
 
 QTimer *LecteurVue::getTimer() const
@@ -110,17 +110,17 @@ void LecteurVue::setTimer(QTimer *newTimer)
     timer = newTimer;
 }
 
-LecteurPresentation *LecteurVue::getPresantation() const
+LecteurPresentation *LecteurVue::getPresentation() const
 {
-    return _presantation;
+    return _presentation;
 }
 
-void LecteurVue::setPresantation(LecteurPresentation *newPresantation)
+void LecteurVue::setPresentation(LecteurPresentation *newPresantation)
 {
-    _presantation = newPresantation;
+    _presentation = newPresantation;
 }
 
-void LecteurVue::majvue(ImageDansDiaporama *img)
+void LecteurVue::majVue(ImageDansDiaporama *img)
 {
     ui->image->setPixmap(QPixmap( QString::fromStdString(img->getChemin())));
     ui->titreImage->setText(QString::fromStdString(img->getTitre()));
@@ -144,6 +144,7 @@ void LecteurVue::majVueDiaporama(Diaporama *d)
         ui->categorieImage->hide();
         ui->numeroImage->hide();
         ui->titreDiapo->setText("Pas de diaporama");
+        ui->actionVitesse->setDisabled(true);
     }
     else{
         ui->avancer->show();
@@ -155,7 +156,7 @@ void LecteurVue::majVueDiaporama(Diaporama *d)
         ui->categorieImage->show();
         ui->numeroImage->show();
         ui->titreDiapo->setText(QString::fromStdString(d->getTitre()));
-
+        ui->actionVitesse->setDisabled(false);
     }
 
 }

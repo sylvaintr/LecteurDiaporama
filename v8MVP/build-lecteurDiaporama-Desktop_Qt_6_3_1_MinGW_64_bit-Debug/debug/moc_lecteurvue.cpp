@@ -23,31 +23,31 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_LecteurVue_t {
     const uint offsetsAndSize[30];
-    char stringdata0[258];
+    char stringdata0[260];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_LecteurVue_t, stringdata0) + ofs), len 
 static const qt_meta_stringdata_LecteurVue_t qt_meta_stringdata_LecteurVue = {
     {
 QT_MOC_LITERAL(0, 10), // "LecteurVue"
-QT_MOC_LITERAL(11, 23), // "afficherfenetreapropode"
-QT_MOC_LITERAL(35, 0), // ""
-QT_MOC_LITERAL(36, 14), // "demanderquiter"
-QT_MOC_LITERAL(51, 15), // "demanderAvancer"
-QT_MOC_LITERAL(67, 15), // "demanderReculer"
-QT_MOC_LITERAL(83, 19), // "demanderAutomatique"
-QT_MOC_LITERAL(103, 17), // "demanderAccelerer"
-QT_MOC_LITERAL(121, 16), // "demanderRalentir"
-QT_MOC_LITERAL(138, 25), // "demanderchangementvitesse"
-QT_MOC_LITERAL(164, 13), // "demanderVider"
-QT_MOC_LITERAL(178, 15), // "demanderChanger"
-QT_MOC_LITERAL(194, 19), // "demanderAvancerAuto"
-QT_MOC_LITERAL(214, 18), // "demanderChangerImg"
-QT_MOC_LITERAL(233, 24) // "demanderChangerCheminImg"
+QT_MOC_LITERAL(11, 24), // "afficherFenetreAProposDe"
+QT_MOC_LITERAL(36, 0), // ""
+QT_MOC_LITERAL(37, 15), // "demanderQuitter"
+QT_MOC_LITERAL(53, 15), // "demanderAvancer"
+QT_MOC_LITERAL(69, 15), // "demanderReculer"
+QT_MOC_LITERAL(85, 19), // "demanderAutomatique"
+QT_MOC_LITERAL(105, 17), // "demanderAccelerer"
+QT_MOC_LITERAL(123, 16), // "demanderRalentir"
+QT_MOC_LITERAL(140, 25), // "demanderchangementvitesse"
+QT_MOC_LITERAL(166, 13), // "demanderVider"
+QT_MOC_LITERAL(180, 15), // "demanderChanger"
+QT_MOC_LITERAL(196, 19), // "demanderAvancerAuto"
+QT_MOC_LITERAL(216, 18), // "demanderChangerImg"
+QT_MOC_LITERAL(235, 24) // "demanderChangerCheminImg"
 
     },
-    "LecteurVue\0afficherfenetreapropode\0\0"
-    "demanderquiter\0demanderAvancer\0"
+    "LecteurVue\0afficherFenetreAProposDe\0"
+    "\0demanderQuitter\0demanderAvancer\0"
     "demanderReculer\0demanderAutomatique\0"
     "demanderAccelerer\0demanderRalentir\0"
     "demanderchangementvitesse\0demanderVider\0"
@@ -108,8 +108,8 @@ void LecteurVue::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<LecteurVue *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->afficherfenetreapropode(); break;
-        case 1: _t->demanderquiter(); break;
+        case 0: _t->afficherFenetreAProposDe(); break;
+        case 1: _t->demanderQuitter(); break;
         case 2: _t->demanderAvancer(); break;
         case 3: _t->demanderReculer(); break;
         case 4: _t->demanderAutomatique(); break;

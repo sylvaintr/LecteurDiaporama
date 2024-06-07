@@ -99,13 +99,13 @@ void database::mettreJourNomImg(QString nouvNom, int idphoto)
     query.exec();
 }
 
-void database::changerVitesse(int vitesse, int iddiporama )
+void database::changerVitesse(int vitesse, int idDiporama )
 {
 
         QSqlQuery query;
         query.prepare("UPDATE Diaporamas SET vitesseDefilement = ? WHERE idDiaporama = ?");
         query.addBindValue(vitesse);
-        query.addBindValue(iddiporama);
+        query.addBindValue(idDiporama);
         query.exec();
 
 }

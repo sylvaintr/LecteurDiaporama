@@ -50,7 +50,7 @@ void LecteurPresentation::demanderAvancer()
         //qDebug() << "j'avance";
         ImageDansDiaporama * img = new ImageDansDiaporama();
         img = _modele->getImageCourante();
-        getVue()->majvue(img);
+        getVue()->majVue(img);
     }
 
 }
@@ -61,7 +61,7 @@ void LecteurPresentation::demanderAvancerauto()
     //qDebug() << "j'avance";
     ImageDansDiaporama * img = new ImageDansDiaporama();
     img = _modele->getImageCourante();
-    getVue()->majvue(img);
+    getVue()->majVue(img);
 }
 
 void LecteurPresentation::demanderReculer()
@@ -77,7 +77,7 @@ void LecteurPresentation::demanderReculer()
 
         ImageDansDiaporama * img = new ImageDansDiaporama();
         img = _modele->getImageCourante();
-        getVue()->majvue(img);
+        getVue()->majVue(img);
     }
 }
 
@@ -132,11 +132,11 @@ void LecteurPresentation::demanderChangerImg()
     for(int i =0 ; listeimage.size()>i ; i++){
 
         bool * ok = new bool;
-        QString  nouvitesse = QInputDialog::getText(getVue(),"changer le nom de l'image "+listeimage.at(i),"quelles est le nouvau nom de l'image "+listeimage.at(i),QLineEdit::EchoMode(),"",ok)  ;
+        QString  nouvNom = QInputDialog::getText(getVue(),"changer le nom de l'image "+listeimage.at(i),"quelles est le nouvau nom de l'image "+listeimage.at(i),QLineEdit::EchoMode(),"",ok)  ;
         if (*ok)
         {
-            if(nouvitesse != ""){
-                getModele()->getDb()->mettreJourNomImg(nouvitesse,i);
+            if(nouvNom != ""){
+                getModele()->getDb()->mettreJourNomImg(nouvNom,i);
             }
 
     }
@@ -153,11 +153,11 @@ void LecteurPresentation::demanderChangerChemin()
     for(int i =0 ; listeimage.size()>i ; i++){
 
         bool * ok = new bool;
-        QString  nouvchemain = QInputDialog::getText(getVue(),"changer le chemain de l'image "+listeimage.at(i),"quelles est le nouvau chemin de l'image "+listeimage.at(i),QLineEdit::EchoMode(),"",ok)  ;
+        QString  nouvchemin = QInputDialog::getText(getVue(),"changer le chemain de l'image "+listeimage.at(i),"quelles est le nouvau chemin de l'image "+listeimage.at(i),QLineEdit::EchoMode(),"",ok)  ;
         if (*ok)
         {
-            if(nouvchemain != ""){
-                getModele()->getDb()->mettreJourCheminImg(nouvchemain,i);
+            if(nouvchemin != ""){
+                getModele()->getDb()->mettreJourCheminImg(nouvchemin,i);
             }
 
     }
@@ -169,7 +169,7 @@ void LecteurPresentation::demanderVider()
     getVue()->getTimer()->stop();
     _modele->viderLecteur();
     ImageDansDiaporama *image =new ImageDansDiaporama(0,"","",":/cartesDisney/Disney_tapis.gif");
-    getVue()->majvue(image);
+    getVue()->majVue(image);
     Diaporama * d = new Diaporama();
     getVue()->majVueDiaporama(d);
 
@@ -178,7 +178,7 @@ void LecteurPresentation::demanderVider()
 void LecteurPresentation::demanderChanger()
 {
     changerdiaporama * fentrechangerdiaporama = new changerdiaporama(getVue()) ;
-    fentrechangerdiaporama->setPresantation(this);
+    fentrechangerdiaporama->setPresentation(this);
     fentrechangerdiaporama->majinterface();
     fentrechangerdiaporama->show();
 

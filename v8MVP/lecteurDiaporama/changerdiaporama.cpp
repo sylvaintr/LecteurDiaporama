@@ -10,7 +10,7 @@ changerdiaporama::changerdiaporama(QWidget *parent) :
 {
 
     ui->setupUi(this);
-    setWindowTitle("changer de diaporama");
+    setWindowTitle("Changer de diaporama");
     QObject::connect(ui->buttonBox, SIGNAL(accepted()), this , SLOT(valider()));
     QObject::connect(ui->buttonBox, SIGNAL(rejected()), this , SLOT(annuler()));
     setWindowIcon(QIcon(":/cartesDisney/changer.png"));
@@ -36,29 +36,29 @@ void changerdiaporama::valider()
        if( query.next()){
            QString titre =query.value(1).toString();
 
-           _presantation->getModele()->changerDiaporama( query.value(0).toInt(),titre.toStdString(),query.value(2).toInt()*1000);
-           _presantation->getVue()->majvue(_presantation->getModele()->getImageCourante());
-           _presantation->getVue()->majVueDiaporama(_presantation->getModele()->getDiaporama());
-            _presantation->getVue()->getTimer()->stop();
-            _presantation->getModele()->setAutom(false);
+           _presentation->getModele()->changerDiaporama( query.value(0).toInt(),titre.toStdString(),query.value(2).toInt()*1000);
+           _presentation->getVue()->majVue(_presentation->getModele()->getImageCourante());
+           _presentation->getVue()->majVueDiaporama(_presentation->getModele()->getDiaporama());
+            _presentation->getVue()->getTimer()->stop();
+            _presentation->getModele()->setAutom(false);
        }
 
 
 
 }
 
-LecteurPresentation *changerdiaporama::getpresantation() const
+LecteurPresentation *changerdiaporama::getPresentation() const
 {
-    return _presantation;
+    return _presentation;
 }
 
-void changerdiaporama::setPresantation(LecteurPresentation *newPresantation)
+void changerdiaporama::setPresentation(LecteurPresentation *newPresantation)
 {
-    _presantation = newPresantation;
+    _presentation = newPresantation;
 }
 void changerdiaporama::majinterface(){
 
-        QStringList listdiaporama = getpresantation()->getModele()->getDb()->nomDiaporama();
+        QStringList listdiaporama = getPresentation()->getModele()->getDb()->nomDiaporama();
         for (int i = 0; i < listdiaporama.size(); ++i) {
              ui->comboBox->addItem(listdiaporama.at(i));
 

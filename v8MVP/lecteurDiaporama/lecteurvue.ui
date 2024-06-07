@@ -250,7 +250,7 @@
    </widget>
    <widget class="QMenu" name="menuParam_tre">
     <property name="title">
-     <string>Paramètre</string>
+     <string>Paramètres</string>
     </property>
     <addaction name="actionVitesse"/>
     <addaction name="actionmodifier_le_nom_des_image"/>
@@ -310,12 +310,12 @@
   </action>
   <action name="actionmodifier_le_nom_des_image">
    <property name="text">
-    <string>modifier le nom des image</string>
+    <string>Modifier le nom des image</string>
    </property>
   </action>
   <action name="actionmodifier_le_chemain_des_image">
    <property name="text">
-    <string>modifier le chemain des image</string>
+    <string>Modifier le chemin des images</string>
    </property>
   </action>
  </widget>

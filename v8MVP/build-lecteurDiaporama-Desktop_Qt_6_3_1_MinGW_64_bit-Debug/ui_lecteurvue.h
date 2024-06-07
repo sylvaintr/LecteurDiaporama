@@ -256,8 +256,8 @@ public:
         actionPar_d_faut->setText(QCoreApplication::translate("LecteurVue", "Par d\303\251faut", nullptr));
         actionVider_lecteur->setText(QCoreApplication::translate("LecteurVue", "Vider lecteur", nullptr));
         actionVitesse->setText(QCoreApplication::translate("LecteurVue", "Vitesse", nullptr));
-        actionmodifier_le_nom_des_image->setText(QCoreApplication::translate("LecteurVue", "modifier le nom des image", nullptr));
-        actionmodifier_le_chemain_des_image->setText(QCoreApplication::translate("LecteurVue", "modifier le chemain des image", nullptr));
+        actionmodifier_le_nom_des_image->setText(QCoreApplication::translate("LecteurVue", "Modifier le nom des image", nullptr));
+        actionmodifier_le_chemain_des_image->setText(QCoreApplication::translate("LecteurVue", "Modifier le chemin des images", nullptr));
         titreDiapo->setText(QCoreApplication::translate("LecteurVue", "titreDiapo", nullptr));
         reculer->setText(QCoreApplication::translate("LecteurVue", "<", nullptr));
         image->setText(QString());
@@ -269,7 +269,7 @@ public:
         automatique->setText(QCoreApplication::translate("LecteurVue", "> II", nullptr));
         accelerer->setText(QCoreApplication::translate("LecteurVue", ">>", nullptr));
         menufichier->setTitle(QCoreApplication::translate("LecteurVue", "Fichier", nullptr));
-        menuParam_tre->setTitle(QCoreApplication::translate("LecteurVue", "Param\303\250tre", nullptr));
+        menuParam_tre->setTitle(QCoreApplication::translate("LecteurVue", "Param\303\250tres", nullptr));
         menuAide->setTitle(QCoreApplication::translate("LecteurVue", "Aide", nullptr));
     } // retranslateUi
 

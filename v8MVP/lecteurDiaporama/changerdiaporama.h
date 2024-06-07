@@ -20,15 +20,15 @@ public:
     int getDiaporamaid() const;
     void setDiaporamaid(int newDiaporamaid);
 
-    LecteurPresentation *getpresantation() const;
-    void setPresantation(LecteurPresentation *newPresantation);
+    LecteurPresentation *getPresentation() const;
+    void setPresentation(LecteurPresentation *newPresantation);
     void majinterface();
 public slots:
     void annuler();
     void valider();
 private:
     Ui::changerdiaporama *ui;
-    LecteurPresentation * _presantation;
+    LecteurPresentation * _presentation;
 
 };
 

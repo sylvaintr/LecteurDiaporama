@@ -79,9 +79,7 @@ void Diaporama::vider()
     unsigned int taille = nbImages();
     for (unsigned int i = 0; i < taille ; i++)
     {
-        enleverImageEnFin(); /* Removes the last element in the vector,
-                              effectively reducing the container size by one.
-                              AND deletes the removed element */
+        enleverImageEnFin();
     }
     // post-condition : nbImages() == 0
 }
@@ -109,14 +107,14 @@ void Diaporama::charger()
         QList<int> rank;
         QStringList listetitre;
         QStringList listecategorie;
-        QStringList listechemain;
-        bd.imagesDUnDiaporama(id, rank,listetitre , listecategorie,  listechemain);
+        QStringList listechemin;
+        bd.imagesDUnDiaporama(id, rank,listetitre , listecategorie,  listechemin);
 
 
            for(int i =0 ; rank.size()>i ; i++){
                //qDebug() <<  query.value(0).toInt() << query.value(1).toString() << query.value(2).toInt()*1000 ;
                QString categorie = listecategorie.at(i);
-               QString chemain =  listechemain.at(i) ;
+               QString chemain =  listechemin.at(i) ;
                QString titre = listetitre.at(i);
                imageACharger = new ImageDansDiaporama(static_cast <unsigned int>(rank.at(i) ), categorie.toStdString(),titre.toStdString() , chemain.toStdString());
                ajouterImageEnFin(imageACharger);

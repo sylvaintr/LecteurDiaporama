@@ -18,10 +18,10 @@ public:
     void setMybd(const QSqlDatabase &newMybd);
     QStringList nomDiaporama();
     void imagesDUnDiaporama(int id,QList<int>& rank,QStringList& listetitre, QStringList& listecategorie, QStringList& listechemain);
-    void caractericitiqueDiaporama(int id );
+    //void caracteristiqueDiaporama(int id );
     QStringList toutesLesImages();
     void mettreJourNomImg(QString,int);
-    void changerVitesse(int vitesse, int iddiporama);
+    void changerVitesse(int vitesse, int idDiporama);
     QStringList tousLesChemins();
     void mettreJourCheminImg(QString,int);
 

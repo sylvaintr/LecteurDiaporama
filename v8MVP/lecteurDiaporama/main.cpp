@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     LecteurVue v;
     Lecteur* l = new Lecteur();     // positionnement par défaut sur diaporama 0 et sur son unique image
     LecteurPresentation* p = new LecteurPresentation(l);
-    v.setPresantation(p);
+    v.setPresentation(p);
     p->setModele(l);
     p->setVue(&v);
     // Ouverture de la vue

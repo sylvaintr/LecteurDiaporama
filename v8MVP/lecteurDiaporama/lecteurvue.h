@@ -22,17 +22,17 @@ class LecteurVue : public QMainWindow
 public:
     explicit LecteurVue(QWidget *parent = nullptr);
     ~LecteurVue();
-    LecteurPresentation *getPresantation() const;
-    void setPresantation(LecteurPresentation *newPresantation);
-    void majvue(ImageDansDiaporama * img);
+    LecteurPresentation *getPresentation() const;
+    void setPresentation(LecteurPresentation *newPresantation);
+    void majVue(ImageDansDiaporama * img);
 
     QTimer *getTimer() const;
     void setTimer(QTimer *newTimer);
 
     void majVueDiaporama(Diaporama *d);
 public slots:
-    void afficherfenetreapropode();
-    void demanderquiter();
+    void afficherFenetreAProposDe();
+    void demanderQuitter();
     void demanderAvancer();
     void demanderReculer();
     void demanderAutomatique();
@@ -46,7 +46,7 @@ public slots:
     void demanderChangerCheminImg();
 private:
     Ui::LecteurVue *ui;
-    LecteurPresentation * _presantation;
+    LecteurPresentation * _presentation;
     QTimer * timer;
 
 };
